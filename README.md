@@ -1,10 +1,15 @@
-# Documentação dos Exercícios - Aula 08 (UC13) Que foi pedido em aula 
+# Documentação- Aula 08 (UC13) Que foi pedido em aula 
 
-Foi pedido que um 
 ---
+
 
 ## **Questão 1**
 ```javascript
+
+Foi pedido uma função chamada verificarIdade que recebe um número como parâmetro representando a
+
+idade de uma pessoa e retorna.
+
 /**
  * Verifica se uma pessoa é menor ou maior de idade.
  * 
@@ -23,6 +28,10 @@ function verificarIdade(idade) {
 ## **Questão 2**
 
 ```javascript
+
+Foi pedido para 
+criar uma função chamada "definirDiaDaSemana" que recebe um número (1 a 7) representando os dias da semana. A função deve retornar o nome do dia correspondente.
+
 /**
  * Retorna o nome do dia da semana com base em um número.
  * 
@@ -50,6 +59,7 @@ function definirDiaDaSemana(dia) {
 
 ## **Questão 3**
 ```javascript
+Foi pedido para Implementar uma função chamada parOuImpar que recebe um número como parâmetro e utiliza um operador ternário para retornar
 
 /**
  * Verifica se um número é par ou ímpar.
@@ -68,6 +78,9 @@ const parOuImpar = (numero) => numero % 2 === 0 ? "Par" : "Ímpar";
 ## **Questão 4**
 
 ```javascript
+
+Considere que você está verificando se um usuário pode acessar um sistema. Um usuário pode acessar o sistema se
+
 /**
  * Verifica se um usuário pode acessar o sistema.
  * 
@@ -90,6 +103,8 @@ function podeAcessar(usuario) {
 ## **Questão 5**
 
 ```javascript
+
+Foi pedido para criar uma arrow function chamada calcularDesconto que recebe dois argumentos
 
 /**
  * Calcula o preço com desconto de um produto.
