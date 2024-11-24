@@ -117,7 +117,7 @@ function podeAcessar(usuario) {
 
 Foi pedido para criar uma arrow function chamada calcularDesconto que recebe dois argumentos
 
-Criei uma função calcularDesconto que recebe dois parâmetros: Preço original. Porcentagem de desconto. Calcule o preço com o desconto usando a fórmula: preço com desconto = preço original preço original x desconto dividido por 100 Retorne o preço final após o desconto ser aplicado.
+Criei uma função calcularDesconto que recebe dois parâmetros: Preço original. Porcentagem de desconto. Calcule o preço com o desconto usando a fórmula: preço com desconto = preço original preço original x desconto dividido por 100 Retorne o preço final após o desconto ser aplicado na compra.
 
 /**
  * Calcula o preço com desconto de um produto.
