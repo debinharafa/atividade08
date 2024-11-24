@@ -13,7 +13,10 @@ idade de uma pessoa e retorna.
 
 Criei uma função chamada verificarIdade que:
 
-Recebe um número (idade). E Retorne "Menor de idade" se a idade for menor que 18, ou "Maior de idade" se for 18 ou mais. Testei com as idades 15, 18 e 21.
+Recebe um número (idade).
+E Retorne "Menor de idade" se
+a idade for menor que 18, ou "Maior de idade" se for 18 ou mais.
+Testei com as idades 15, 18 e 21.
 
 /**
  * Verifica se uma pessoa é menor ou maior de idade.
@@ -37,7 +40,10 @@ function verificarIdade(idade) {
 Foi pedido para 
 criar uma função chamada "definirDiaDaSemana" que recebe um número (1 a 7) representando os dias da semana. A função deve retornar o nome do dia correspondente.
 
-A função deve ser chamada definirDiaDaSemana e deve receber um número uma estrutura condicional nisso eu utilizei  (switch ou if/else) para verificar o número e retornar o nome do dia correspondente. Verifiquei números fora do intervalo (menor que 1 ou maior que 7) e retornar "Número inválido".
+A função deve ser chamada definirDiaDaSemana e deve receber um número uma estrutura condicional nisso eu utilizei
+(switch ou if/else) para verificar o número e retornar o nome do dia correspondente. Verifiquei
+números fora do intervalo
+(menor que 1 ou maior que 7) e retornar "Número inválido".
 
 /**
  * Retorna o nome do dia da semana com base em um número.
@@ -68,7 +74,10 @@ function definirDiaDaSemana(dia) {
 ```javascript
 Foi pedido para Implementar uma função chamada parOuImpar que recebe um número como parâmetro e utiliza um operador ternário para retornar
 
-Tive que utilizar o operador ternário para verificar a condição: A condição a ser verificada é se o número é par . Se a condição for verdadeira "número é par", a função retorna "Par". Caso contrário "número é ímpar",então deverá a função retorna "Ímpar".
+Tive que utilizar o operador ternário para verificar a condição:
+A condição a ser verificada é se o número é par .
+Se a condição for verdadeira "número é par", a função retorna "Par".
+Caso contrário "número é ímpar",então deverá a função retorna "Ímpar".
 
 /**
  * Verifica se um número é par ou ímpar.
@@ -90,7 +99,10 @@ const parOuImpar = (numero) => numero % 2 === 0 ? "Par" : "Ímpar";
 
 Considere que você está verificando se um usuário pode acessar um sistema. Um usuário pode acessar o sistema se
 
-A função tem que verificar se o usuário é maior de dezoito anos ou se ele é ADM apois isso Verifica se a conta não está bloqueada. Resultado: Se ambas as condições forem verdadeiras, a função retorna true (acesso permitido). Se qualquer condição falhar, a função retorna false (acesso negado).
+A função tem que verificar se o usuário é maior de dezoito anos ou se ele é ADM apois isso Verifica se a conta não está bloqueada.
+Resultado: Se ambas as condições
+forem verdadeiras, a função retorna true (acesso permitido). Se qualquer condição falhar,
+a função retorna false (acesso negado).
 
 /**
  * Verifica se um usuário pode acessar o sistema.
@@ -117,7 +129,9 @@ function podeAcessar(usuario) {
 
 Foi pedido para criar uma arrow function chamada calcularDesconto que recebe dois argumentos
 
-Criei uma função calcularDesconto que recebe dois parâmetros: Preço original. Porcentagem de desconto. Calcule o preço com o desconto usando a fórmula: preço com desconto = preço original preço original x desconto dividido por 100 Retorne o preço final após o desconto ser aplicado na compra.
+Criei uma função calcularDesconto que recebe dois parâmetros: Preço original.
+Porcentagem de desconto.
+Calcule o preço com o desconto usando a fórmula: preço com desconto = preço original preço original x desconto dividido por 100 Retorne o preço final após o desconto ser aplicado na compra.
 
 /**
  * Calcula o preço com desconto de um produto.
